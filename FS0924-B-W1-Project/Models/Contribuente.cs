@@ -123,8 +123,8 @@ namespace FS0924_B_W1_Project.Models
             Console.WriteLine($"nato il {DataDiNascita:dd/MM/yyyy},");
             Console.WriteLine($"residente in {ComuneDiResidenza},");
             Console.WriteLine($"codice fiscale: {CodiceFiscale},");
-            Console.WriteLine($"Reddito dichiarato: €{RedditoAnnuale}");
-            Console.WriteLine($"IMPOSTA DA VERSARE: €{ImpostaDaPagare}");
+            Console.WriteLine($"Reddito dichiarato: €{RedditoAnnuale:N2}");
+            Console.WriteLine($"IMPOSTA DA VERSARE: €{ImpostaDaPagare:N2}");
             Console.WriteLine("==================================================");
         }
 
